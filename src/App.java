@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class App {
     private static final Scanner scanner = new Scanner(System.in);
     private static final IProductRepository productRepo = new ProductRepository();
-
     private static final CartService cartService = new CartService();
     private static final OrderService orderService = new OrderService();
     private static final RatingService ratingService = new RatingService();
