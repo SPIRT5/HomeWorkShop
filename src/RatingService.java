@@ -7,4 +7,3 @@ public class RatingService {
         product.setRating(rating);
     }
 }
-
